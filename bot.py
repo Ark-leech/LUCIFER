@@ -1,8 +1,5 @@
-import os
-import math
 import logging
 import logging.config
-
 from aiohttp import web
 from plugins import web_server
 
