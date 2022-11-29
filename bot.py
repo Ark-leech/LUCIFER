@@ -4,7 +4,7 @@ import logging
 import logging.config
 
 from aiohttp import web
-from plugins import web_server
+from LUCIFER import web_server
 
 # Get logging configurations
 logging.config.fileConfig('logging.conf')
