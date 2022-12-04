@@ -3,9 +3,6 @@ import math
 import logging
 import logging.config
 
-from aiohttp import web
-from LUCIFER import web_server
-
 # Get logging configurations
 logging.config.fileConfig('logging.conf')
 logging.getLogger().setLevel(logging.INFO)
